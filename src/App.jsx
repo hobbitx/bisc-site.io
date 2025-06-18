@@ -4,16 +4,15 @@ import styled from "styled-components";
 import Navbar from "./components/Navbar";
 import CardGrid from "./components/CardGrid";
 import Sidebar from "./components/Sidebar";
-import ConfigPage from "./components/ConfigPage";
 import raidCardsData from './configs/raidCards.json';
 import dgCardsData from './configs/dgCards.json';
 
 function Home() { return <div>Home Content</div>; }
-function Setup() { return <ConfigPage />; }
+function Setup() { return <div>Setup Content</div>; }
 function Contato() { return <div>Contato Content</div>; }
 
 const AppContainer = styled.div`
-  background: #d9d9d9;
+  
   min-height: 100vh;
   padding: 24px 0;
 `;
@@ -54,7 +53,6 @@ export default function App() {
               <Route path="/raid" element={<Raid />} />
               <Route path="/setup" element={<Setup />} />
               <Route path="/contato" element={<Contato />} />
-              <Route path="/config" element={<ConfigPage />} />
             </Routes>
           </MainContent>
           <Sidebar />

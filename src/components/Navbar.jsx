@@ -5,17 +5,39 @@ import { Link } from "react-router-dom";
 import DropdownMenu from "./DropdownMenu";
 import generalConfig from "../configs/general.json";
 import guias from '../configs/guias.json';
+import LogoSVG from "../logo.svg";
 
 const NavBar = styled.nav`
   background: #bdbdbd;
   padding: 12px 32px;
   display: flex;
-  align-items: center;
+    align-items: center;
+    justify-content: center;
   gap: 24px;
   border-radius: 12px;
   width: 90%;
   margin: 0 auto;
   height: 56px;
+  position: relative;
+`;
+
+const Logo = styled.img`
+  height: 32px;
+  display: block;
+`;
+
+const LogoLink = styled(Link)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 0 24px;
+  height: 100%;
+  width: 60px;
+  transition: background 0.2s;
+  &:hover {
+    background: #e0e0e0;
+  }
 `;
 
 const NavItemWrapper = styled.div`
@@ -105,14 +127,14 @@ export default function Navbar({ raidCards, dgCards }) {
 
   return (
     <NavBar>
-      <NavItemWrapper>
-        <NavButton to="/">HOME</NavButton>
-      </NavItemWrapper>
+      <LogoLink to="/">
+        <Logo src={LogoSVG} alt="Logo" />
+      </LogoLink>
       <NavItemWrapper
         onMouseEnter={() => setShowDg(true)}
         onMouseLeave={() => setShowDg(false)}
       >
-        <NavButton to="/dg">DG</NavButton>
+        <NavButton to="/dg">DUNGEONS</NavButton>
         {showDg && (
           <div
             style={{ position: "absolute", top: "100%", left: 0, zIndex: 10 }}
