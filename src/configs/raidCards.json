@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Vexie and the Geargrinders",
+    "desc": "Description for Boss 1",
+    "videoUrl": "https://www.youtube.com/watch?v=example1"
+  },
+  {
+    "title": "Cauldron of Carnage",
+    "desc": "Description for Boss 2",
+    "videoUrl": "https://www.youtube.com/watch?v=example2"
+  },
+  {
+    "title": "Rik Reverb",
+    "desc": "Description for Boss 3",
+    "videoUrl": "https://www.youtube.com/watch?v=example3"
+  },
+  {
+    "title": "Stix Bunkjunker",
+    "desc": "Description for Boss 4",
+    "videoUrl": "https://www.youtube.com/watch?v=example4"
+  },
+  {
+    "title": "Sprocketmonger Lockenstock",
+    "desc": "Description for Boss 5",
+    "videoUrl": "https://www.youtube.com/watch?v=example5"
+  },
+  {
+    "title": "The One-Armed Bandit",
+    "desc": "Description for Boss 6",
+    "videoUrl": "https://www.youtube.com/watch?v=example6"
+  },
+  {
+    "title": "Mug'Zee",
+    "desc": "Description for Boss 7",
+    "videoUrl": "https://www.youtube.com/watch?v=example7"
+  },
+  {
+    "title": "Chrome King Gallywix",
+    "desc": "Description for Boss 8",
+    "videoUrl": "https://www.youtube.com/watch?v=example8"
+  }
+]

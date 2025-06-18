@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Cinderbrew Meadery",
+    "desc": "Description for DG 1",
+    "videoUrl": "https://www.youtube.com/watch?v=example1"
+  },
+  {
+    "title": "Darkflame Cleft",
+    "desc": "Description for DG 2",
+    "videoUrl": "https://www.youtube.com/watch?v=example2"
+  },
+  {
+    "title": "The Rookery",
+    "desc": "Description for The Rookery",
+    "videoUrl": "https://www.youtube.com/watch?v=example3"
+  },
+  {
+    "title": "Priory of the Sacred Flame",
+    "desc": "Description for Priory of the Sacred Flame",
+    "videoUrl": "https://www.youtube.com/watch?v=example4"
+  },
+  {
+    "title": "Operation: Floodgate",
+    "desc": "Description for Operation: Floodgate",
+    "videoUrl": "https://www.youtube.com/watch?v=example5"
+  },
+  {
+    "title": "The MOTHERLODE!!",
+    "desc": "Description for The MOTHERLODE!!",
+    "videoUrl": "https://www.youtube.com/watch?v=example6"
+  },
+  {
+    "title": "Theater of Pain",
+    "desc": "Description for Theater of Pain",
+    "videoUrl": "https://www.youtube.com/watch?v=example7"
+  },
+  {
+    "title": "Operation: Mechagon Workshop",
+    "desc": "Description for Operation: Mechagon Workshop",
+    "videoUrl": "https://www.youtube.com/watch?v=example8"
+  }
+]
